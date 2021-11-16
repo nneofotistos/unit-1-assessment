@@ -20,7 +20,7 @@ function subtract() {
 function update() {
     output.innerHTML = count;
     inputNum = parseFloat(input.value);
-    if (output.innerHTML > 0){
+    if (output.innerHTML >= 0){
         output.style.color = "black";
     } else if (output.innerHTML < 0) {
         output.style.color = "red";
