@@ -20,5 +20,4 @@ function subtract() {
 function update() {
     output.innerHTML = count;
     inputNum = parseFloat(input.value);
-    console.log(inputNum);
 }
